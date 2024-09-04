@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SlikeRadnici\radnik1.jpg" />
+    <None Remove="SlikeRadnici\radnik2.jpg" />
+    <None Remove="SlikeRadnici\radnik3.jpg" />
+    <None Remove="SlikeRadnici\radnik4.jpg" />
+    <None Remove="SlikeRadnici\radnik5.jpg" />
+    <None Remove="SlikeRadnici\radnik6.jpg" />
+    <None Remove="SlikeRadnici\radnik8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SlikeRadnici\radnik4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SlikeRadnici\radnik1.jpg" />
+    <Resource Include="SlikeRadnici\radnik2.jpg" />
+    <Resource Include="SlikeRadnici\radnik3.jpg" />
+    <Resource Include="SlikeRadnici\radnik5.jpg" />
+    <Resource Include="SlikeRadnici\radnik6.jpg" />
+    <Resource Include="SlikeRadnici\radnik8.jpg" />
+  </ItemGroup>
+
+</Project>
